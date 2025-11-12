@@ -1,0 +1,15 @@
+# Projection build output
+dist/
+
+# Backup files
+.backup
+
+# macOS
+.DS_Store
+
+# Node modules (if using npm scripts)
+node_modules/
+
+# Editor directories
+.vscode/
+.idea/
