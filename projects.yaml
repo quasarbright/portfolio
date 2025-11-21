@@ -132,7 +132,7 @@ projects:
   - id: majority-automaton-gpu
     title: Majority Cellular Automaton
     description: A multi-state cellular automaton where the next value is determined
-      by majority vote of the neighbors. 
+      by majority vote of the neighbors.
     creationDate: "2025-06-15"
     tags:
       - cellular-automata
@@ -648,7 +648,8 @@ projects:
   - id: syntax-spec
     title: Syntax Spec
     description: A meta language for creating sophisticated domain specific
-      languages in Racket. Research project with Michael Ballantyne.
+      languages in Racket. This is Michael Ballantyne's project, I am helping
+      him make it.
     creationDate: "2022-09-21"
     tags:
       - macros
@@ -658,6 +659,7 @@ projects:
       - programming-languages
     pageLink: https://github.com/michaelballantyne/syntax-spec
     sourceLink: https://github.com/michaelballantyne/syntax-spec
+    thumbnailLink: ""
     featured: true
   - id: frp
     title: Functional Reactive Programming
