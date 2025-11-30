@@ -1064,3 +1064,28 @@ projects:
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/honeycomb-mst
     tags:
       - web
+  - id: vscode-paredit
+    title: Paredit VSCode Extension
+    description: A VSCode extension for structural S-Expression editing. Includes
+      operations like "move forward past the next parentheses-balanced
+      expression".
+    creationDate: "2025-11-29"
+    tags:
+      - utility
+      - ide
+    pageLink: https://marketplace.visualstudio.com/items?itemName=MikeDelmonaco.paredit
+    sourceLink: https://github.com/quasarbright/vscode-paredit
+    thumbnailLink: ""
+    featured: true
+  - id: quantum-simulator
+    title: Quantum Simulator
+    description: A very simplified quantum physics simulator for a single electron
+      with spin, featuring an experiment editor.
+    creationDate: "2025-11-30"
+    tags:
+      - physics
+      - education
+    pageLink: https://quasarbright.github.io/quantum-simulator-js/
+    sourceLink: https://github.com/quasarbright/quantum-simulator-js
+    thumbnailLink: admin://quantum-simulator.png
+    featured: true
