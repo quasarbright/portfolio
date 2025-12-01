@@ -1089,3 +1089,13 @@ projects:
     sourceLink: https://github.com/quasarbright/quantum-simulator-js
     thumbnailLink: admin://quantum-simulator.png
     featured: true
+  - id: vector-field
+    title: vector field
+    description: 2D vector field where you can drop particles down and see where they go
+    creationDate: "2025-11-30"
+    tags:
+      - web
+    pageLink: https://quasarbright.github.io/p5js/vector-field/
+    sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/vector-field
+    thumbnailLink: admin://vector-field.png
+    featured: false
