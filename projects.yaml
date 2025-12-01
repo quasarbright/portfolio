@@ -1091,7 +1091,7 @@ projects:
     featured: true
   - id: vector-field
     title: vector field
-    description: 2D vector field where you can drop particles down and see where they go
+    description: 2D vector field where you can drop particles in and see where they go
     creationDate: "2025-11-30"
     tags:
       - web
