@@ -1113,3 +1113,18 @@ projects:
     sourceLink: https://github.com/quasarbright/clanker-translate
     thumbnailLink: admin://clanker-translate.png
     featured: true
+  - id: sorting-algorithm-visualizer
+    title: Sorting Algorithm Visualizer
+    description: A visualizer for sorting algorithms. See the sorting happen step by
+      step, upload a picture, scramble, and sort the columns of pixels. Has
+      sound.
+    creationDate: "2025-12-07"
+    tags:
+      - upload-image
+      - web
+      - algorithms
+      - funny
+    pageLink: https://quasarbright.github.io/p5js/image-column-sort/
+    sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/image-column-sort
+    thumbnailLink: admin://sorting-algorithm-visualizer.png
+    featured: false
