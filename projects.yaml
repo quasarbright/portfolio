@@ -45,8 +45,8 @@ projects:
       - upload-image
       - funny
       - web
-    pageLink: ./p5js/julia-image
-    thumbnailLink: ./p5js/screenshots/julia-image.png
+    pageLink: https://quasarbright.github.io/p5js/julia-image
+    thumbnailLink: https://quasarbright.github.io/p5js/screenshots/julia-image.png
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/julia-image
     featured: true
   - id: seam-carving
@@ -58,8 +58,8 @@ projects:
       - algorithms
       - funny
       - web
-    pageLink: ./p5js/seam-carving
-    thumbnailLink: ./images/energy-broomstick.png
+    pageLink: https://quasarbright.github.io/p5js/seam-carving
+    thumbnailLink: https://quasarbright.github.io/images/energy-broomstick.png
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/seam-carving
   - id: fractal-curve-editor
     title: Fractal Curve Editor
@@ -69,8 +69,8 @@ projects:
     tags:
       - fractal
       - web
-    pageLink: ./p5js/fractal-curve-editor/
-    thumbnailLink: ./p5js/screenshots/fractal-curve-editor.png
+    pageLink: https://quasarbright.github.io/p5js/fractal-curve-editor/
+    thumbnailLink: https://quasarbright.github.io/p5js/screenshots/fractal-curve-editor.png
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/fractal-curve-editor
   - id: complex-dynamics
     title: General Complex Dynamics Visualizer
@@ -82,8 +82,8 @@ projects:
       - shader
       - pretty
       - web
-    pageLink: ./p5js/complex-dynamics/
-    thumbnailLink: ./p5js/screenshots/complex-dynamics.png
+    pageLink: https://quasarbright.github.io/p5js/complex-dynamics/
+    thumbnailLink: https://quasarbright.github.io/p5js/screenshots/complex-dynamics.png
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/complex-dynamics
     featured: true
   - id: mandelbrot-shader
@@ -150,8 +150,8 @@ projects:
       - fractal
       - shader
       - web
-    pageLink: ./p5js/newton-fractal
-    thumbnailLink: ./p5js/screenshots/newton.png
+    pageLink: https://quasarbright.github.io/p5js/newton-fractal
+    thumbnailLink: https://quasarbright.github.io/p5js/screenshots/newton.png
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/newton-fractal
   - id: spring-wave
     title: Double Slit Interference
@@ -162,7 +162,7 @@ projects:
       - physics
       - web
     pageLink: https://quasarbright.github.io/spring-wave/dist/index.html
-    thumbnailLink: ./p5js/screenshots/spring-wave.png
+    thumbnailLink: https://quasarbright.github.io/p5js/screenshots/spring-wave.png
     sourceLink: https://github.com/quasarbright/spring-wave
   - id: 3-point-perspective
     title: 3 Point Perspective
@@ -183,7 +183,7 @@ projects:
     tags:
       - web
     pageLink: https://quasarbright.github.io/p5js/complex-function-grid-visualizer
-    thumbnailLink: ./p5js/screenshots/complex-grid-transformation.png
+    thumbnailLink: https://quasarbright.github.io/p5js/screenshots/complex-grid-transformation.png
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/complex-function-grid-visualizer
   - id: braille-dithering
     title: Braille Dithering
@@ -258,8 +258,8 @@ projects:
     tags:
       - shader
       - web
-    pageLink: ./p5js/voronoi
-    thumbnailLink: ./p5js/screenshots/voronoi.png
+    pageLink: https://quasarbright.github.io/p5js/voronoi
+    thumbnailLink: https://quasarbright.github.io/p5js/screenshots/voronoi.png
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/voronoi
   - id: raindrops
     title: Raindrops
@@ -332,8 +332,8 @@ projects:
       - AI
       - genetic-algorithm
       - web
-    pageLink: ./p5js/genetic-steering
-    thumbnailLink: ./p5js/screenshots/genetic-steering.png
+    pageLink: https://quasarbright.github.io/p5js/genetic-steering
+    thumbnailLink: https://quasarbright.github.io/p5js/screenshots/genetic-steering.png
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/genetic-steering
   - id: smart-rockets
     title: Smart Rockets
