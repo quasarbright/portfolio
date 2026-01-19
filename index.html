@@ -18,7 +18,7 @@
       <h1>Mike Delmonaco</h1>
       <p class="site-description">My coding projects</p>
       <div class="stats">
-        <span>99 projects</span>
+        <span>100 projects</span>
         <span>15 featured</span>
         <span>Since 2017</span>
       </div>
@@ -49,6 +49,27 @@
     
     <div class="projects-grid" id="projects-grid">
       
+    <div class="project-card" data-project-id="image-majority-automaton" style="background-image: url('./images/image-majority-automaton.png');">
+      
+      <div class="card-content">
+        <div class="card-info">
+          <h3 class="project-title">
+            <a href="https://quasarbright.github.io/p5js/image-majority-automaton/" target="_blank" rel="noopener noreferrer" class="title-link">
+              Image → Majority Automaton
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: inline; margin-left: 6px;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"></path><polyline points="15,3 21,3 21,9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+          </h3>
+          <p class="project-date">January 18, 2026</p>
+          <p class="project-description">Upload an image, dither it, and run it through a majority vote cellular automaton</p>
+        </div>
+        <div class="card-bottom">
+          <div class="project-tags"><span class="tag" data-tag="cellular-automata">cellular-automata</span><span class="tag" data-tag="upload-image">upload-image</span><span class="tag" data-tag="web">web</span><span class="tag" data-tag="funny">funny</span></div>
+          <div class="card-actions">
+            <a href="https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/image-majority-automaton" class="btn-secondary" target="_blank" rel="noopener">Source Code <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: inline; margin-left: 4px;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"></path><polyline points="15,3 21,3 21,9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="project-card featured" data-project-id="clanker-translate" style="background-image: url('./images/clanker-translate.png');">
       
       <div class="card-content">
@@ -357,7 +378,7 @@
           <p class="project-description">A GPU-powered version for higher performance.</p>
         </div>
         <div class="card-bottom">
-          <div class="project-tags"><span class="tag" data-tag="cellular-automata">cellular-automata</span><span class="tag" data-tag="shader">shader</span><span class="tag" data-tag="conway">conway</span><span class="tag" data-tag="web">web</span></div>
+          <div class="project-tags"><span class="tag" data-tag="cellular-automata">cellular-automata</span><span class="tag" data-tag="shader">shader</span><span class="tag" data-tag="conway">conway</span><span class="tag" data-tag="web">web</span><span class="tag" data-tag="upload-image">upload-image</span></div>
           <div class="card-actions">
             <a href="https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/gpu-gol" class="btn-secondary" target="_blank" rel="noopener">Source Code <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: inline; margin-left: 4px;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"></path><polyline points="15,3 21,3 21,9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a>
           </div>
@@ -2173,6 +2194,22 @@
     window.PROJECTS_DATA = {
   "projects": [
     {
+      "id": "image-majority-automaton",
+      "title": "Image → Majority Automaton",
+      "description": "Upload an image, dither it, and run it through a majority vote cellular automaton",
+      "creationDate": "2026-01-19",
+      "tags": [
+        "cellular-automata",
+        "upload-image",
+        "web",
+        "funny"
+      ],
+      "pageLink": "https://quasarbright.github.io/p5js/image-majority-automaton/",
+      "sourceLink": "https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/image-majority-automaton",
+      "thumbnailLink": "admin://image-majority-automaton.png",
+      "featured": false
+    },
+    {
       "id": "clanker-translate",
       "title": "Clanker Translate",
       "description": "An LLM-powered translator that allows you to provide context for the translation, and gives you a transcription and explanation for the translation",
@@ -2378,10 +2415,13 @@
         "cellular-automata",
         "shader",
         "conway",
-        "web"
+        "web",
+        "upload-image"
       ],
       "pageLink": "https://quasarbright.github.io/p5js/gpu-gol",
-      "sourceLink": "https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/gpu-gol"
+      "sourceLink": "https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/gpu-gol",
+      "thumbnailLink": "",
+      "featured": false
     },
     {
       "id": "complex-grid-transformation",
@@ -3495,7 +3535,6 @@
     "dynamicBackgrounds": [
       "https://quasarbright.github.io/p5js/boids",
       "https://quasarbright.github.io/p5js/random-walk",
-      "https://quasarbright.github.io/p5js/voronoi?background",
       "https://quasarbright.github.io/p5js/majority-automaton-gpu?background",
       "https://quasarbright.github.io/p5js/genetic-steering",
       "https://quasarbright.github.io/p5js/fullscreen-gpu-gol",
