@@ -212,8 +212,11 @@ projects:
       - shader
       - conway
       - web
+      - upload-image
     pageLink: https://quasarbright.github.io/p5js/gpu-gol
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/gpu-gol
+    thumbnailLink: ""
+    featured: false
   - id: sand2
     title: Sand
     description: Add sand, water, stone, acid, fire, and more to the screen and
@@ -1127,4 +1130,18 @@ projects:
     pageLink: https://quasarbright.github.io/p5js/image-column-sort/
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/image-column-sort
     thumbnailLink: admin://sorting-algorithm-visualizer.png
+    featured: false
+  - id: image-majority-automaton
+    title: Image → Majority Automaton
+    description: Upload an image, dither it, and run it through a majority vote
+      cellular automaton
+    creationDate: "2026-01-19"
+    tags:
+      - cellular-automata
+      - upload-image
+      - web
+      - funny
+    pageLink: https://quasarbright.github.io/p5js/image-majority-automaton/
+    sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/image-majority-automaton
+    thumbnailLink: admin://image-majority-automaton.png
     featured: false
