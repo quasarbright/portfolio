@@ -1190,3 +1190,14 @@ projects:
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/waveform-transform
     thumbnailLink: admin://waveform-transform.png
     featured: false
+  - id: frequency-matcher-game
+    title: Frequency Matcher Game
+    description: a game where you figure out the frequency of a sound
+    creationDate: "2026-04-12"
+    tags:
+      - sound
+      - game
+    pageLink: https://quasarbright.github.io/p5js/frequency-matcher/
+    sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/frequency-matcher
+    thumbnailLink: admin://frequency-matcher-game.png
+    featured: false
