@@ -1127,6 +1127,7 @@ projects:
       - web
       - algorithms
       - funny
+      - sound
     pageLink: https://quasarbright.github.io/p5js/image-column-sort/
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/image-column-sort
     thumbnailLink: admin://sorting-algorithm-visualizer.png
@@ -1144,4 +1145,48 @@ projects:
     pageLink: https://quasarbright.github.io/p5js/image-majority-automaton/
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/image-majority-automaton
     thumbnailLink: admin://image-majority-automaton.png
+    featured: false
+  - id: light-propagation
+    title: Light Propagation
+    description: animated ray tracing where rays on the same "wavefront" are
+      connected. supports mirrors and lenses/refraction.
+    creationDate: "2026-03-15"
+    tags:
+      - physics
+      - web
+    pageLink: https://quasarbright.github.io/p5js/light-rays/dist/
+    sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/light-rays
+    thumbnailLink: admin://light-propagation.png
+    featured: false
+  - id: hex-random-walkers
+    title: Hex Random Walkers
+    description: Random walkers on a hexagonal lattice
+    creationDate: "2026-03-15"
+    tags:
+      - web
+    pageLink: https://quasarbright.github.io/p5js/hex-random-walk/
+    sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/hex-random-walk
+    thumbnailLink: admin://hex-random-walkers.png
+    featured: false
+  - id: dice-random-walkers
+    title: Dice Random Walkers
+    description: Random walkers on a dice lattice. Looks 3D and cube-y
+    creationDate: "2026-03-15"
+    tags:
+      - web
+    pageLink: https://quasarbright.github.io/p5js/dice-random-walk/
+    sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/dice-random-walk
+    thumbnailLink: admin://dice-random-walkers.png
+    featured: false
+  - id: waveform-transform
+    title: Waveform Transform
+    description: I wanted to hear what it sounded like to smoothly morph between two
+      sound waveforms
+    creationDate: "2026-04-12"
+    tags:
+      - web
+      - sound
+    pageLink: https://quasarbright.github.io/p5js/waveform-transform/
+    sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/waveform-transform
+    thumbnailLink: admin://waveform-transform.png
     featured: false

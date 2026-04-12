@@ -9,7 +9,9 @@
     "https://quasarbright.github.io/p5js/genetic-steering",
     "https://quasarbright.github.io/p5js/fullscreen-gpu-gol",
     "https://quasarbright.github.io/p5js/honeycomb-mst",
-    "https://quasarbright.github.io/p5js/image-column-sort/?background"
+    "https://quasarbright.github.io/p5js/image-column-sort/?background",
+    "https://quasarbright.github.io/p5js/dice-random-walk/",
+    "https://quasarbright.github.io/p5js/hex-random-walk/"
   ],
   "output": "dist"
 }
