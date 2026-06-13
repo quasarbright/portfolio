@@ -19,7 +19,7 @@ projects:
     creationDate: "2024-03-29"
     tags:
       - game
-      - AI
+      - ai
       - web
     pageLink: https://quasarbright.github.io/minesweeper
     sourceLink: https://github.com/quasarbright/minesweeper
@@ -237,7 +237,7 @@ projects:
       to head in the same direction and speed as nearby boids.
     creationDate: "2023-08-20"
     tags:
-      - AI
+      - ai
       - web
     pageLink: https://quasarbright.github.io/p5js/boids
     thumbnailLink: https://quasarbright.github.io/p5js/boids/screenshot.png
@@ -332,7 +332,7 @@ projects:
     description: Creatures evolve to seek food and avoid poison.
     creationDate: "2019-07-13"
     tags:
-      - AI
+      - ai
       - genetic-algorithm
       - web
     pageLink: https://quasarbright.github.io/p5js/genetic-steering
@@ -345,7 +345,7 @@ projects:
       forces to themselves.
     creationDate: "2017-03-23"
     tags:
-      - AI
+      - ai
       - web
       - genetic-algorithm
     pageLink: https://editor.p5js.org/mdelmonaco/present/BkJquZ1Ae
@@ -782,7 +782,7 @@ projects:
     description: A bot for cheating at word hunt.
     creationDate: "2024-08-23"
     tags:
-      - AI
+      - ai
       - racket
     pageLink: https://github.com/quasarbright/learn-racket/blob/master/word-hunt.rkt
     sourceLink: https://github.com/quasarbright/learn-racket/blob/master/word-hunt.rkt
@@ -791,7 +791,7 @@ projects:
     description: A bot for cheating at anagrams.
     creationDate: "2024-08-23"
     tags:
-      - AI
+      - ai
       - racket
     pageLink: https://github.com/quasarbright/learn-racket/blob/master/anagrams.rkt
     sourceLink: https://github.com/quasarbright/learn-racket/blob/master/anagrams.rkt
@@ -883,7 +883,7 @@ projects:
       original.
     creationDate: "2019-04-07"
     tags:
-      - AI
+      - ai
       - neural-networks
     pageLink: https://github.com/quasarbright/MachineLearning/tree/master/uncrop
     sourceLink: https://github.com/quasarbright/MachineLearning/tree/master/uncrop
@@ -894,7 +894,7 @@ projects:
       continuously morph between images by interpolating their compressed forms.
     creationDate: "2019-04-07"
     tags:
-      - AI
+      - ai
       - neural-networks
     pageLink: https://github.com/quasarbright/MachineLearning/tree/master/conv_autoencoder
     sourceLink: https://github.com/quasarbright/MachineLearning/tree/master/conv_autoencoder
@@ -906,7 +906,7 @@ projects:
       images are real or fake.
     creationDate: "2019-05-05"
     tags:
-      - AI
+      - ai
       - neural-networks
     pageLink: https://github.com/quasarbright/MachineLearning/tree/master/CIFAR_GAN
     sourceLink: https://github.com/quasarbright/MachineLearning/tree/master/CIFAR_GAN
@@ -916,7 +916,7 @@ projects:
     description: GAN trained to generate anime faces.
     creationDate: "2019-05-07"
     tags:
-      - AI
+      - ai
       - neural-networks
     pageLink: https://github.com/quasarbright/MachineLearning/tree/master/anime_face_gan
     sourceLink: https://github.com/quasarbright/MachineLearning/tree/master/anime_face_gan
@@ -929,7 +929,7 @@ projects:
     creationDate: "2019-07-05"
     tags:
       - game
-      - AI
+      - ai
       - neural-networks
     pageLink: https://www.youtube.com/shorts/LL62tmIUtGU
     sourceLink: https://github.com/quasarbright/YLUJLO/tree/master/python/snake_ai
@@ -938,7 +938,7 @@ projects:
     description: Guideline-compliant Tetris with an AI that plays better than me!
     creationDate: "2020-06-26"
     tags:
-      - AI
+      - ai
       - game
     pageLink: https://www.youtube.com/watch?v=NXq3ncGSBaE
     sourceLink: https://github.com/quasarbright/TetrisAI
@@ -948,7 +948,7 @@ projects:
     description: An AI that plays 2048 almost perfectly.
     creationDate: "2020-06-25"
     tags:
-      - AI
+      - ai
       - game
     pageLink: https://www.youtube.com/watch?v=MKE-tNw-N78
     sourceLink: https://github.com/quasarbright/2048
@@ -1088,6 +1088,7 @@ projects:
     tags:
       - physics
       - education
+      - web
     pageLink: https://quasarbright.github.io/quantum-simulator-js/
     sourceLink: https://github.com/quasarbright/quantum-simulator-js
     thumbnailLink: admin://quantum-simulator.png
@@ -1197,7 +1198,56 @@ projects:
     tags:
       - sound
       - game
+      - web
     pageLink: https://quasarbright.github.io/p5js/frequency-matcher/
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/frequency-matcher
     thumbnailLink: admin://frequency-matcher-game.png
     featured: false
+  - id: evolving-particle-life
+    title: Evolving Particle Life
+    description: producers, herbivores, and predators evolve to eat and not be
+      eaten. like real ecosystems, populations see-saw back and forth.
+    creationDate: "2026-06-07"
+    tags:
+      - genetic-algorithm
+      - web
+    pageLink: https://quasarbright.github.io/evolving-particle-life/
+    sourceLink: https://github.com/quasarbright/evolving-particle-life
+    thumbnailLink: admin://evolving-particle-life.png
+    featured: false
+  - id: head-tracking-window
+    title: head tracking window
+    description: turns your monitor into a window into a 3D world. uses your phone
+      camera to place the virtual camera to create a realistic perspective
+    creationDate: "2026-05-10"
+    tags:
+      - web
+    pageLink: https://quasarbright.github.io/head-tracking-window/
+    sourceLink: https://github.com/quasarbright/head-tracking-window
+    thumbnailLink: admin://head-tracking-window.png
+    featured: false
+  - id: tetromino-puzzle
+    title: Tetromino Puzzle
+    description: A puzzle game where you fill a square with tetrominos. Inspired by
+      those puzzles from "The Talos Principle"
+    creationDate: "2026-06-12"
+    tags:
+      - game
+      - web
+    pageLink: https://quasarbright.github.io/tetromino-game/
+    sourceLink: https://github.com/quasarbright/tetromino-game/
+    thumbnailLink: admin://tetromino-puzzle.png
+    featured: false
+  - id: clanker-court
+    title: Clanker Court
+    description: An LLM-powered trial. You're the attorney; the witnesses, opposing
+      counsel, judge, and jury are all AI. Generate a case and take it to trial.
+    creationDate: "2026-06-12"
+    tags:
+      - game
+      - ai
+      - web
+    pageLink: https://quasarbright.github.io/clanker-court/
+    sourceLink: https://github.com/quasarbright/clanker-court/
+    thumbnailLink: admin://clanker-court.png
+    featured: true
