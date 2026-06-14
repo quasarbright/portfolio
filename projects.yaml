@@ -1251,3 +1251,32 @@ projects:
     sourceLink: https://github.com/quasarbright/clanker-court/
     thumbnailLink: admin://clanker-court.png
     featured: true
+  - id: treason
+    title: Treason
+    description: A Racket-like language with macros AND good IDE services
+    creationDate: "2025-12-24"
+    tags:
+      - programming-languages
+      - macros
+      - ide
+      - racket
+      - compiler
+      - research
+      - unfinished
+    pageLink: https://github.com/quasarbright/treason
+    sourceLink: https://github.com/quasarbright/treason
+    thumbnailLink: ""
+    featured: true
+  - id: blobify-mp4
+    title: blobify-mp4
+    description: an effect that blobifies a video like modern art, based on majority
+      automaton
+    creationDate: "2026-06-14"
+    tags:
+      - shader
+      - cellular-automata
+      - video-effect
+    pageLink: https://github.com/quasarbright/blobify-mp4
+    sourceLink: https://github.com/quasarbright/blobify-mp4
+    thumbnailLink: admin://blobify-mp4.png
+    featured: false
