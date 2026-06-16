@@ -29,6 +29,7 @@ projects:
     description: A little tool to figure out how much you owe someone for dinner.
     creationDate: "2024-04-19"
     tags:
+      - mobile-friendly
       - utility
       - web
     pageLink: https://quasarbright.github.io/dinner-debt
@@ -107,6 +108,7 @@ projects:
       clicking/dragging the mouse on the screen.
     creationDate: "2020-07-14"
     tags:
+      - mobile-friendly
       - fractal
       - shader
       - pretty
@@ -135,6 +137,7 @@ projects:
       by majority vote of the neighbors.
     creationDate: "2025-06-15"
     tags:
+      - mobile-friendly
       - cellular-automata
       - shader
       - web
@@ -208,6 +211,7 @@ projects:
     description: A GPU-powered version for higher performance.
     creationDate: "2025-06-07"
     tags:
+      - mobile-friendly
       - cellular-automata
       - shader
       - conway
@@ -237,6 +241,7 @@ projects:
       to head in the same direction and speed as nearby boids.
     creationDate: "2023-08-20"
     tags:
+      - mobile-friendly
       - ai
       - web
     pageLink: https://quasarbright.github.io/p5js/boids
@@ -248,6 +253,7 @@ projects:
       randomly decides to move up, down, left, or right.
     creationDate: "2025-02-02"
     tags:
+      - mobile-friendly
       - pretty
       - web
     pageLink: https://quasarbright.github.io/p5js/random-walk
@@ -259,6 +265,7 @@ projects:
       bounce off the walls. Also includes alternative distance functions.
     creationDate: "2025-08-22"
     tags:
+      - mobile-friendly
       - shader
       - web
     pageLink: https://quasarbright.github.io/p5js/voronoi
@@ -272,6 +279,7 @@ projects:
       chosen.
     creationDate: "2025-02-02"
     tags:
+      - mobile-friendly
       - web
     pageLink: https://quasarbright.github.io/p5js/raindrops
     thumbnailLink: https://quasarbright.github.io/p5js/screenshots/raindrops.png
@@ -284,6 +292,7 @@ projects:
       producing an interesting pattern
     creationDate: "2023-09-13"
     tags:
+      - mobile-friendly
       - physics
       - cellular-automata
       - web
@@ -296,6 +305,7 @@ projects:
       neighboring cell beats this cell, this cell becomes the winner.
     creationDate: "2025-01-31"
     tags:
+      - mobile-friendly
       - cellular-automata
       - web
     pageLink: https://quasarbright.github.io/p5js/rock-paper-scissors-automaton
@@ -321,6 +331,7 @@ projects:
       generation.
     creationDate: "2024-03-31"
     tags:
+      - mobile-friendly
       - cellular-automata
       - conway
       - web
@@ -332,6 +343,7 @@ projects:
     description: Creatures evolve to seek food and avoid poison.
     creationDate: "2019-07-13"
     tags:
+      - mobile-friendly
       - ai
       - genetic-algorithm
       - web
@@ -345,6 +357,7 @@ projects:
       forces to themselves.
     creationDate: "2017-03-23"
     tags:
+      - mobile-friendly
       - ai
       - web
       - genetic-algorithm
@@ -357,6 +370,7 @@ projects:
       explanation of the math.
     creationDate: "2024-09-21"
     tags:
+      - mobile-friendly
       - education
       - web
     pageLink: https://quasarbright.github.io/monty-hall-game
@@ -367,6 +381,7 @@ projects:
       piece of paper in half over and over again.
     creationDate: "2023-12-30"
     tags:
+      - mobile-friendly
       - fractal
       - web
     pageLink: https://quasarbright.github.io/p5js/dragon-curve/
@@ -379,6 +394,7 @@ projects:
       funny.'
     creationDate: "2018-07-13"
     tags:
+      - mobile-friendly
       - funny
       - web
     pageLink: https://quasarbright.github.io/p5js/ginchology
@@ -389,6 +405,7 @@ projects:
       hiragana syllable rules.
     creationDate: "2019-07-13"
     tags:
+      - mobile-friendly
       - web
     pageLink: https://quasarbright.github.io/p5js/kanaWordGenerator
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/kanaWordGenerator
@@ -410,6 +427,7 @@ projects:
       elastically, conserving kinetic energy and momentum like billiard balls.
     creationDate: "2025-02-09"
     tags:
+      - mobile-friendly
       - physics
       - web
     pageLink: https://quasarbright.github.io/p5js/elastic-sphere-collision
@@ -438,6 +456,7 @@ projects:
     description: Randomly placed circles that don't overlap with each other.
     creationDate: "2019-07-06"
     tags:
+      - mobile-friendly
       - web
     pageLink: https://quasarbright.github.io/p5js/random%20circles%20no%20overlap
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/random%20circles%20no%20overlap
@@ -446,6 +465,7 @@ projects:
     description: Randomly placed squares that don't overlap with each other.
     creationDate: "2019-07-06"
     tags:
+      - mobile-friendly
       - web
     pageLink: https://quasarbright.github.io/p5js/random%20squares%20no%20overlap
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/random%20squares%20no%20overlap
@@ -465,6 +485,7 @@ projects:
       points that bounce around. You can add points by clicking on the screen.
     creationDate: "2018-07-13"
     tags:
+      - mobile-friendly
       - algorithms
       - web
     pageLink: https://quasarbright.github.io/p5js/moving-spanning-tree
@@ -485,6 +506,7 @@ projects:
       of points.
     creationDate: "2019-07-06"
     tags:
+      - mobile-friendly
       - algorithms
       - web
     pageLink: https://quasarbright.github.io/p5js/travelling%20salesman
@@ -503,6 +525,7 @@ projects:
     description: A blog about programming languages and math.
     creationDate: "2022-10-02"
     tags:
+      - mobile-friendly
       - blog
       - programming-languages
       - web
@@ -1066,6 +1089,7 @@ projects:
     thumbnailLink: https://quasarbright.github.io/p5js/screenshots/honeycomb-mst.png
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/honeycomb-mst
     tags:
+      - mobile-friendly
       - web
   - id: vscode-paredit
     title: Paredit VSCode Extension
@@ -1110,6 +1134,7 @@ projects:
       translation
     creationDate: "2025-12-07"
     tags:
+      - mobile-friendly
       - web
       - ai
       - utility
@@ -1124,6 +1149,7 @@ projects:
       sound.
     creationDate: "2025-12-07"
     tags:
+      - mobile-friendly
       - upload-image
       - web
       - algorithms
@@ -1139,6 +1165,7 @@ projects:
       cellular automaton
     creationDate: "2026-01-19"
     tags:
+      - mobile-friendly
       - cellular-automata
       - upload-image
       - web
@@ -1153,6 +1180,7 @@ projects:
       connected. supports mirrors and lenses/refraction.
     creationDate: "2026-03-15"
     tags:
+      - mobile-friendly
       - physics
       - web
     pageLink: https://quasarbright.github.io/p5js/light-rays/dist/
@@ -1164,6 +1192,7 @@ projects:
     description: Random walkers on a hexagonal lattice
     creationDate: "2026-03-15"
     tags:
+      - mobile-friendly
       - web
     pageLink: https://quasarbright.github.io/p5js/hex-random-walk/
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/hex-random-walk
@@ -1174,6 +1203,7 @@ projects:
     description: Random walkers on a dice lattice. Looks 3D and cube-y
     creationDate: "2026-03-15"
     tags:
+      - mobile-friendly
       - web
     pageLink: https://quasarbright.github.io/p5js/dice-random-walk/
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/dice-random-walk
@@ -1185,6 +1215,7 @@ projects:
       sound waveforms
     creationDate: "2026-04-12"
     tags:
+      - mobile-friendly
       - web
       - sound
     pageLink: https://quasarbright.github.io/p5js/waveform-transform/
@@ -1196,6 +1227,7 @@ projects:
     description: a game where you figure out the frequency of a sound
     creationDate: "2026-04-12"
     tags:
+      - mobile-friendly
       - sound
       - game
       - web
@@ -1209,6 +1241,7 @@ projects:
       eaten. like real ecosystems, populations see-saw back and forth.
     creationDate: "2026-06-07"
     tags:
+      - mobile-friendly
       - genetic-algorithm
       - web
     pageLink: https://quasarbright.github.io/evolving-particle-life/
@@ -1244,6 +1277,7 @@ projects:
       counsel, judge, and jury are all AI. Generate a case and take it to trial.
     creationDate: "2026-06-12"
     tags:
+      - mobile-friendly
       - game
       - ai
       - web
