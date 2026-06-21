@@ -1314,3 +1314,15 @@ projects:
     sourceLink: https://github.com/quasarbright/blobify-mp4
     thumbnailLink: admin://blobify-mp4.png
     featured: false
+  - id: image-golden-spiral
+    title: Image -> Golden Spiral
+    description: Warp an image into a golden spiral
+    creationDate: "2026-06-16"
+    tags:
+      - upload-image
+      - web
+      - funny
+    pageLink: https://quasarbright.github.io/image-golden-spiral/
+    sourceLink: https://github.com/quasarbright/image-golden-spiral/
+    thumbnailLink: admin://image-golden-spiral.png
+    featured: false
