@@ -1337,3 +1337,17 @@ projects:
     sourceLink: https://github.com/quasarbright/droste
     thumbnailLink: admin://droste-effect.png
     featured: false
+  - id: blobify-webcam
+    title: Blobify Webcam
+    description: blobify yourself live with a majority automaton
+    creationDate: "2026-06-26"
+    tags:
+      - web
+      - webcam
+      - funny
+      - video-effect
+      - cellular-automata
+    pageLink: https://quasarbright.github.io/blobify-webcam
+    sourceLink: https://github.com/quasarbright/blobify-webcam
+    thumbnailLink: admin://blobify-webcam.png
+    featured: false
