@@ -1366,3 +1366,15 @@ projects:
     sourceLink: https://github.com/quasarbright/conway-webcam
     thumbnailLink: admin://conway-webcam.png
     featured: false
+  - id: escher-warp-spiral
+    title: Escher Warp Spiral
+    description: Turns an image into a self-similar warped spiral
+    creationDate: "2026-06-26"
+    tags:
+      - web
+      - funny
+      - upload-image
+    pageLink: https://quasarbright.github.io/escher-warp/
+    sourceLink: https://github.com/quasarbright/escher-warp
+    thumbnailLink: admin://escher-warp.png
+    featured: true
