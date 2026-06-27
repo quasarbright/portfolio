@@ -1351,3 +1351,18 @@ projects:
     sourceLink: https://github.com/quasarbright/blobify-webcam
     thumbnailLink: admin://blobify-webcam.png
     featured: false
+  - id: conway-webcam
+    title: Conway Webcam
+    description: run conway's game of life seeded by live webcam feed
+    creationDate: "2026-06-26"
+    tags:
+      - web
+      - cellular-automata
+      - funny
+      - conway
+      - video-effect
+      - webcam
+    pageLink: https://quasarbright.github.io/conway-webcam/
+    sourceLink: https://github.com/quasarbright/conway-webcam
+    thumbnailLink: admin://conway-webcam.png
+    featured: false
