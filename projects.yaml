@@ -1326,3 +1326,14 @@ projects:
     sourceLink: https://github.com/quasarbright/image-golden-spiral/
     thumbnailLink: admin://image-golden-spiral.png
     featured: false
+  - id: droste-effect
+    title: Droste Effect
+    description: Put an image inside of itself recursively
+    creationDate: "2026-06-22"
+    tags:
+      - upload-image
+      - web
+    pageLink: https://quasarbright.github.io/droste
+    sourceLink: https://github.com/quasarbright/droste
+    thumbnailLink: admin://droste-effect.png
+    featured: false
