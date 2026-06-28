@@ -1347,6 +1347,7 @@ projects:
       - funny
       - video-effect
       - cellular-automata
+      - mobile-friendly
     pageLink: https://quasarbright.github.io/blobify-webcam
     sourceLink: https://github.com/quasarbright/blobify-webcam
     thumbnailLink: admin://blobify-webcam.png
@@ -1362,6 +1363,7 @@ projects:
       - conway
       - video-effect
       - webcam
+      - mobile-friendly
     pageLink: https://quasarbright.github.io/conway-webcam/
     sourceLink: https://github.com/quasarbright/conway-webcam
     thumbnailLink: admin://conway-webcam.png
