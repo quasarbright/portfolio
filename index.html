@@ -18,7 +18,7 @@
       <h1>Mike Delmonaco</h1>
       <p class="site-description">My coding projects</p>
       <div class="stats">
-        <span>121 projects</span>
+        <span>122 projects</span>
         <span>19 featured</span>
         <span>Since 2017</span>
       </div>
@@ -49,6 +49,27 @@
     
     <div class="projects-grid" id="projects-grid">
       
+    <div class="project-card" data-project-id="snowflake" style="background-image: url('./images/snowflake.png');">
+      
+      <div class="card-content">
+        <div class="card-info">
+          <h3 class="project-title">
+            <a href="https://quasarbright.github.io/sketches/snowflake/" target="_blank" rel="noopener noreferrer" class="title-link">
+              Markov Snowflake
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: inline; margin-left: 6px;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"></path><polyline points="15,3 21,3 21,9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+          </h3>
+          <p class="project-date">July 10, 2026</p>
+          <p class="project-description">Grow a six-fold snowflake, branch by branch. The six arms share one growth program, so whatever happens to one happens to all of them, mirrored — and branches can touch but never cross</p>
+        </div>
+        <div class="card-bottom">
+          <div class="project-tags"><span class="tag" data-tag="web">web</span></div>
+          <div class="card-actions">
+            <a href="https://github.com/quasarbright/sketches/tree/master/snowflake" class="btn-secondary" target="_blank" rel="noopener">Source Code <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: inline; margin-left: 4px;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"></path><polyline points="15,3 21,3 21,9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="project-card featured" data-project-id="differential-growth" style="background-image: url('./images/differential-growth.png');">
       
       <div class="card-content">
@@ -2635,6 +2656,19 @@
     window.PROJECTS_DATA = {
   "projects": [
     {
+      "id": "snowflake",
+      "title": "Markov Snowflake",
+      "description": "Grow a six-fold snowflake, branch by branch. The six arms share one growth program, so whatever happens to one happens to all of them, mirrored — and branches can touch but never cross",
+      "creationDate": "2026-07-11",
+      "tags": [
+        "web"
+      ],
+      "pageLink": "https://quasarbright.github.io/sketches/snowflake/",
+      "sourceLink": "https://github.com/quasarbright/sketches/tree/master/snowflake",
+      "thumbnailLink": "admin://snowflake.png",
+      "featured": false
+    },
+    {
       "id": "differential-growth",
       "title": "Differential Growth",
       "description": "Draw some curves and watch them grow and fold in on themselves, looking organic and wrinkly",
@@ -4337,7 +4371,8 @@
       "https://quasarbright.github.io/p5js/hex-random-walk/",
       "https://quasarbright.github.io/evolving-particle-life/?background",
       "https://quasarbright.github.io/sketches/contagion/?background",
-      "https://quasarbright.github.io/sketches/differential-growth/?background"
+      "https://quasarbright.github.io/sketches/differential-growth/?background",
+      "https://quasarbright.github.io/sketches/snowflake/?background"
     ]
   }
 };
