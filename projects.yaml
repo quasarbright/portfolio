@@ -1380,3 +1380,86 @@ projects:
     sourceLink: https://github.com/quasarbright/escher-warp
     thumbnailLink: admin://escher-warp.png
     featured: true
+  - id: time-displacement
+    title: Time Displacement Webcam
+    description: each row of your webcam feed lags behind by a different amount,
+      like a live slit-scan time distortion
+    creationDate: "2026-07-03"
+    tags:
+      - web
+      - webcam
+      - funny
+      - mobile-friendly
+      - video-effect
+    pageLink: https://quasarbright.github.io/sketches/time-displacement/
+    sourceLink: https://github.com/quasarbright/sketches/tree/master/time-displacement
+    thumbnailLink: admin://time-displacement.png
+    featured: false
+  - id: fourier-epicycles
+    title: Fourier Epicycles
+    description: draw a closed curve and watch it redrawn as a chain of rotating
+      circles (a Fourier series), like 3blue1brown's video
+    creationDate: "2026-07-03"
+    tags:
+      - web
+      - mobile-friendly
+    pageLink: https://quasarbright.github.io/sketches/fourier-epicycles/
+    sourceLink: https://github.com/quasarbright/sketches/tree/master/fourier-epicycles
+    thumbnailLink: admin://fourier-epicycles.png
+    featured: false
+  - id: sandpile
+    title: Abelian Sandpile
+    description: A GPU cellular automaton where every screen pixel is a grain of
+      sand — pile up more than 3 grains on a cell and it topples into its
+      neighbors, cascading into intricate fractal avalanches. Click and drag to
+      pour your own.
+    creationDate: "2026-07-04"
+    tags:
+      - web
+      - cellular-automata
+      - shader
+      - mobile-friendly
+    pageLink: https://quasarbright.github.io/sketches/sandpile/
+    sourceLink: https://github.com/quasarbright/sketches/tree/master/sandpile
+    thumbnailLink: admin://sandpile.png
+    featured: false
+  - id: contagion
+    title: Forest Fire Simulator
+    description: Fire spreads tree to tree through a forest, burns out, and trees
+      slowly regrow and become burn-able again. The same concepts also apply to
+      a disease outbreak spreading through a population, with susceptible,
+      infectious, and temporarily immune individuals.
+    creationDate: "2026-07-04"
+    tags:
+      - web
+      - cellular-automata
+      - shader
+      - mobile-friendly
+    pageLink: https://quasarbright.github.io/sketches/contagion/
+    sourceLink: https://github.com/quasarbright/sketches/tree/master/contagion
+    thumbnailLink: admin://contagion.png
+    featured: false
+  - id: differential-growth
+    title: Differential Growth
+    description: Draw some curves and watch them grow and fold in on themselves,
+      looking organic and wrinkly
+    creationDate: "2026-07-05"
+    tags:
+      - web
+      - mobile-friendly
+    pageLink: https://quasarbright.github.io/sketches/differential-growth/
+    sourceLink: https://github.com/quasarbright/sketches/tree/master/differential-growth
+    thumbnailLink: admin://differential-growth.png
+    featured: true
+  - id: snowflake
+    title: Anamorphic Snowflake
+    description: Grow a six-fold snowflake, branch by branch. The six arms share one
+      growth program, so whatever happens to one happens to all of them,
+      mirrored — and branches can touch but never cross
+    creationDate: "2026-07-11"
+    tags:
+      - web
+    pageLink: https://quasarbright.github.io/sketches/snowflake/
+    sourceLink: https://github.com/quasarbright/sketches/tree/master/snowflake
+    thumbnailLink: admin://snowflake.png
+    featured: false
