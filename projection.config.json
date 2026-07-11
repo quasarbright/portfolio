@@ -13,8 +13,7 @@
     "https://quasarbright.github.io/p5js/hex-random-walk/",
     "https://quasarbright.github.io/evolving-particle-life/?background",
     "https://quasarbright.github.io/sketches/contagion/?background",
-    "https://quasarbright.github.io/sketches/differential-growth/?background",
-    "https://quasarbright.github.io/sketches/snowflake/?background"
+    "https://quasarbright.github.io/sketches/differential-growth/?background"
   ],
   "output": "dist"
 }
