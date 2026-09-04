@@ -1464,3 +1464,31 @@ projects:
     sourceLink: https://github.com/quasarbright/sketches/tree/master/snowflake
     thumbnailLink: admin://snowflake.png
     featured: false
+  - id: fireflies
+    title: Fireflies
+    description: Fireflies blink and sync up with fireflies near them, creating wavy
+      behavior
+    creationDate: "2026-07-27"
+    tags:
+      - web
+      - mobile-friendly
+    pageLink: https://quasarbright.github.io/sketches/fireflies/
+    sourceLink: https://github.com/quasarbright/sketches/tree/master/fireflies
+    thumbnailLink: admin://fireflies.png
+    featured: false
+  - id: mini-ksp
+    title: Welcome to Shmorbit
+    description: Fly a little rocket around the real solar system on Keplerian
+      orbits. Plan maneuvers KSP-style, chase encounters from the Moon out to
+      Pluto's tilted orbit, and warp or rewind time freely. The whole future is
+      solved, not simulated
+    creationDate: "2026-08-29"
+    tags:
+      - web
+      - game
+      - physics
+      - mobile-friendly
+    pageLink: https://quasarbright.github.io/sketches/mini-ksp/
+    sourceLink: https://github.com/quasarbright/sketches/tree/master/mini-ksp
+    thumbnailLink: admin://mini-ksp.png
+    featured: true
