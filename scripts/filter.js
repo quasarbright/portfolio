@@ -39,6 +39,66 @@ class ProjectFilter {
     this.clearFiltersBtn.addEventListener('click', () => {
       this.clearAllFilters();
     });
+
+    // On phones the tag list starts collapsed: the tags that fit on the first row, any selected
+    // ones, and a "more tags" link on its own row under them
+    const tagsToggle = document.getElementById('tags-toggle');
+    const filterSection = document.getElementById('filter-section');
+    if (tagsToggle && filterSection) {
+      const phone = window.matchMedia('(max-width: 720px)');
+      this.layoutTags = () => {
+        const open = filterSection.classList.contains('tags-open');
+        this.tagFilters.forEach(b => b.classList.remove('tag-overflow'));
+        let hidden = 0;
+        if (phone.matches && !open) {
+          // hiding a later tag never moves an earlier one, so one pass is enough
+          const firstTop = this.tagFilters[0].offsetTop;
+          this.tagFilters.forEach(b => {
+            if (b.offsetTop > firstTop + 2 && !b.classList.contains('active')) {
+              b.classList.add('tag-overflow');
+              hidden++;
+            }
+          });
+        }
+        tagsToggle.textContent = open ? 'Fewer tags' : `${hidden} more tags`;
+        tagsToggle.hidden = !open && hidden === 0;
+        tagsToggle.setAttribute('aria-expanded', String(open));
+      };
+      tagsToggle.addEventListener('click', () => {
+        filterSection.classList.toggle('tags-open');
+        this.layoutTags();
+      });
+      phone.addEventListener('change', () => this.layoutTags());
+      window.addEventListener('resize', () => this.layoutTags());
+      document.fonts?.ready.then(() => this.layoutTags());
+      this.layoutTags();
+    }
+
+    // "See all" in the featured section filters the grid to featured projects
+    const seeAll = document.getElementById('see-all-featured');
+    if (seeAll) {
+      seeAll.addEventListener('click', () => {
+        this.activeFilters.clear();
+        this.activeFilters.add('featured');
+        this.updateFilterUI();
+        this.applyFilters();
+        document.getElementById('filter-section')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    }
+  }
+
+  // While a tag or search narrows the grid, hide the featured section and show the match count
+  updateState() {
+    const filtering = this.searchActive || !this.activeFilters.has('all');
+    document.body.classList.toggle('is-filtering', filtering);
+    const title = document.getElementById('all-title');
+    if (title) title.textContent = filtering ? 'Results' : 'Everything';
+    const count = document.getElementById('result-count');
+    if (count) {
+      const visible = Array.from(this.projectsGrid.querySelectorAll('.project-card'))
+        .filter(card => card.style.display !== 'none').length;
+      count.textContent = `${visible} project${visible === 1 ? '' : 's'}`;
+    }
   }
   
   toggleTagFilter(tag) {
@@ -73,6 +133,9 @@ class ProjectFilter {
     
     // Update tag highlighting in cards and modal
     this.updateTagHighlighting();
+
+    // A newly selected tag stays visible when the phone tag list is collapsed
+    this.layoutTags?.();
   }
   
   updateTagHighlighting() {
@@ -114,7 +177,8 @@ class ProjectFilter {
     
     // Show/hide no results message
     this.toggleNoResults(visibleCount === 0);
-    
+    this.updateState();
+
     // Update URL with active filters
     this.updateURL();
   }
