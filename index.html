@@ -11,14 +11,14 @@
   <link rel="stylesheet" href="styles/cards.css">
   <!-- <link rel="stylesheet" href="styles/modal.css"> Modal styles not currently used -->
 </head>
-<body>
-  <iframe id="dynamic-background" src="" frameborder="0" tabindex="-1" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;"></iframe>
+<body class="has-dynamic-background">
+  <iframe id="dynamic-background" src="" frameborder="0" tabindex="-1" title="Background" allow="fullscreen 'none'"></iframe>
   <header class="site-header">
     <div class="container">
       <h1>Mike Delmonaco</h1>
       <p class="site-description">My coding projects</p>
       <div class="stats">
-        <span>134 projects</span>
+        <span>135 projects</span>
         <span>22 featured</span>
         <span>Since 2017</span>
       </div>
@@ -66,6 +66,27 @@
           <div class="project-tags"><span class="tag" data-tag="web">web</span><span class="tag" data-tag="game">game</span><span class="tag" data-tag="ai">ai</span><span class="tag" data-tag="mobile-friendly">mobile-friendly</span></div>
           <div class="card-actions">
             <a href="https://github.com/quasarbright/tetris" class="btn-secondary" target="_blank" rel="noopener">Source Code <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: inline; margin-left: 4px;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"></path><polyline points="15,3 21,3 21,9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="project-card" data-project-id="sand-gpu" style="background-image: url('./images/sand-gpu.png');">
+      
+      <div class="card-content">
+        <div class="card-info">
+          <h3 class="project-title">
+            <a href="https://quasarbright.github.io/sketches/sand/" target="_blank" rel="noopener noreferrer" class="title-link">
+              Sand on GPU
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: inline; margin-left: 6px;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"></path><polyline points="15,3 21,3 21,9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+          </h3>
+          <p class="project-date">November 11, 2026</p>
+          <p class="project-description">Add sand, water, stone, acid, fire, and more to the screen and watch them interact. This is a cellular automaton where each "grain" interacts with its neighbors depending on what material it is.</p>
+        </div>
+        <div class="card-bottom">
+          <div class="project-tags"><span class="tag" data-tag="web">web</span><span class="tag" data-tag="cellular-automata">cellular-automata</span><span class="tag" data-tag="shader">shader</span><span class="tag" data-tag="game">game</span><span class="tag" data-tag="mobile-friendly">mobile-friendly</span></div>
+          <div class="card-actions">
+            <a href="https://github.com/quasarbright/sketches/tree/master/sand" class="btn-secondary" target="_blank" rel="noopener">Source Code <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: inline; margin-left: 4px;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"></path><polyline points="15,3 21,3 21,9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a>
           </div>
         </div>
       </div>
@@ -2921,6 +2942,23 @@
       "pageLink": "https://quasarbright.github.io/tetris/",
       "sourceLink": "https://github.com/quasarbright/tetris",
       "thumbnailLink": "admin://tetris-ai.png",
+      "featured": false
+    },
+    {
+      "id": "sand-gpu",
+      "title": "Sand on GPU",
+      "description": "Add sand, water, stone, acid, fire, and more to the screen and watch them interact. This is a cellular automaton where each \"grain\" interacts with its neighbors depending on what material it is.",
+      "creationDate": "2026-11-12",
+      "tags": [
+        "web",
+        "cellular-automata",
+        "shader",
+        "game",
+        "mobile-friendly"
+      ],
+      "pageLink": "https://quasarbright.github.io/sketches/sand/",
+      "sourceLink": "https://github.com/quasarbright/sketches/tree/master/sand",
+      "thumbnailLink": "admin://sand-gpu.png",
       "featured": false
     },
     {
