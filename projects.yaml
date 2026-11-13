@@ -1296,10 +1296,9 @@ projects:
       - racket
       - compiler
       - research
-      - unfinished
-    pageLink: https://github.com/quasarbright/treason
+    pageLink: https://www.youtube.com/watch?v=zKXHEXH_axI
     sourceLink: https://github.com/quasarbright/treason
-    thumbnailLink: ""
+    thumbnailLink: admin://treason.png
     featured: true
   - id: blobify-mp4
     title: blobify-mp4
@@ -1492,3 +1491,173 @@ projects:
     sourceLink: https://github.com/quasarbright/sketches/tree/master/mini-ksp
     thumbnailLink: admin://mini-ksp.png
     featured: true
+  - id: draw-maze
+    title: Draw Maze
+    description: Draw a word or a picture and get a maze whose one solution traces
+      it. Solve it yourself, watch it solve itself, or send someone a link to
+      the maze without giving away what's hidden in it
+    creationDate: "2026-09-23"
+    tags:
+      - web
+      - game
+    pageLink: https://quasarbright.github.io/sketches/draw-maze/
+    sourceLink: https://github.com/quasarbright/sketches/tree/master/draw-maze
+    thumbnailLink: admin://draw-maze.png
+    featured: false
+  - id: cutwist
+    title: Cutwist
+    description: Twisty puzzles like the Rubik's cube. We got all the platonic
+      solids, truncations of them, and some absolute eldritch horrors like the
+      Klein bottle, real projective plane, and even the poincare disk. You can
+      even make your own puzzles with crazy shapes and cuts!
+    creationDate: "2026-09-25"
+    tags:
+      - web
+      - game
+      - mobile-friendly
+    pageLink: https://quasarbright.github.io/cutwist/
+    sourceLink: https://github.com/quasarbright/cutwist
+    thumbnailLink: admin://cutwist.png
+    featured: true
+  - id: hilbert-portrait
+    title: Hilbert Portrait
+    description: Draws your webcam or a photo with one unbroken line, a Hilbert
+      curve that wiggles tighter where the picture is dark. Look closely to see
+      the maze, watch the line draw itself, or save it as an SVG for a pen
+      plotter.
+    creationDate: "2026-10-06"
+    tags:
+      - web
+      - webcam
+      - upload-image
+      - fractal
+      - mobile-friendly
+    pageLink: https://quasarbright.github.io/sketches/hilbert-portrait/
+    sourceLink: https://github.com/quasarbright/sketches/tree/master/hilbert-portrait
+    thumbnailLink: admin://hilbert-portrait.png
+    featured: false
+  - id: snowflake-studio
+    title: Snowflake Studio
+    description: Draw a snowflake by hand, with automatic symmetry and perfect branches
+    creationDate: "2026-10-08"
+    tags:
+      - web
+      - mobile-friendly
+    pageLink: https://quasarbright.github.io/sketches/snowflake-studio/
+    sourceLink: https://github.com/quasarbright/sketches/tree/master/snowflake-studio
+    thumbnailLink: admin://snowflake-studio.png
+    featured: false
+  - id: pancake-sort
+    title: Pancake Sort
+    description: Sort a stack of pancakes by flipping them
+    creationDate: "2026-10-08"
+    tags:
+      - web
+      - game
+      - mobile-friendly
+    pageLink: https://quasarbright.github.io/sketches/pancakes/
+    sourceLink: https://github.com/quasarbright/sketches/tree/master/pancakes
+    thumbnailLink: admin://pancake-sort.png
+    featured: false
+  - id: to-scale
+    title: To Scale
+    description: Get an idea for how big something is by comparing it to other stuff
+      like phone screens, soda cans, etc. Supports 1:1 scaling to get the real
+      size of something on your screen
+    creationDate: "2026-10-21"
+    tags:
+      - web
+      - utility
+    pageLink: https://quasarbright.github.io/sketches/to-scale/
+    sourceLink: https://github.com/quasarbright/sketches/tree/master/to-scale
+    thumbnailLink: admin://to-scale.png
+    featured: false
+  - id: wormhole
+    title: Wormhole
+    description: Fly through a ray-traced wormhole between two universes
+    creationDate: "2026-10-25"
+    tags:
+      - web
+      - shader
+      - physics
+      - optics
+    pageLink: https://quasarbright.github.io/sketches/wormhole/
+    sourceLink: https://github.com/quasarbright/sketches/tree/master/wormhole
+    thumbnailLink: admin://wormhole.png
+    featured: true
+  - id: plangdle
+    title: Plangdle
+    description: A Wordle-style daily game where you guess a programming language.
+      Each guess shows attributes like its year, typing, block syntax and
+      lineage, colored by how close they are to the answer's attributes.
+    creationDate: "2026-11-08"
+    tags:
+      - web
+      - game
+      - mobile-friendly
+      - programming-languages
+    pageLink: https://quasarbright.github.io/sketches/plangdle/
+    sourceLink: https://github.com/quasarbright/sketches/tree/master/plangdle
+    thumbnailLink: admin://plangdle.png
+    featured: false
+  - id: mathematiciandle
+    title: Mathematiciandle
+    description: A Wordle-style daily game where you guess a famous mathematician.
+      Each guess shows attributes like their birth year, birth country, fields
+      and what's named after them, colored by how close they are to the answer's
+      attributes.
+    creationDate: "2026-11-08"
+    tags:
+      - web
+      - game
+      - mobile-friendly
+      - math
+    pageLink: https://quasarbright.github.io/sketches/mathematiciandle/
+    sourceLink: https://github.com/quasarbright/sketches/tree/master/mathematiciandle
+    thumbnailLink: admin://mathematiciandle.png
+    featured: false
+  - id: tetris-ai
+    title: Tetris
+    description: Play Tetris in the browser, and watch an AI play it super fast.
+      This is a web port of my old Tetris implementation and AI I made in python
+      by hand a long time ago
+    creationDate: "2026-11-12"
+    tags:
+      - web
+      - game
+      - ai
+      - mobile-friendly
+    pageLink: https://quasarbright.github.io/tetris/
+    sourceLink: https://github.com/quasarbright/tetris
+    thumbnailLink: admin://tetris-ai.png
+    featured: false
+  - id: sand-gpu
+    title: Sand on GPU
+    description: Add sand, water, stone, acid, fire, and more to the screen and
+      watch them interact. This is a cellular automaton where each "grain"
+      interacts with its neighbors depending on what material it is.
+    creationDate: "2026-11-12"
+    tags:
+      - web
+      - cellular-automata
+      - shader
+      - game
+      - mobile-friendly
+    pageLink: https://quasarbright.github.io/sketches/sand/
+    sourceLink: https://github.com/quasarbright/sketches/tree/master/sand
+    thumbnailLink: admin://sand-gpu.png
+    featured: false
+  - id: g2048-web
+    title: "2048"
+    description: Play 2048 in the browser, or watch an AI play it super fast. This
+      is a web port of the 2048 AI I wrote in Python a long time ago.
+    creationDate: "2026-11-13"
+    tags:
+      - web
+      - game
+      - ai
+      - mobile-friendly
+    pageLink: https://quasarbright.github.io/sketches/2048/
+    sourceLink: https://github.com/quasarbright/sketches/tree/master/2048
+    thumbnailLink: admin://g2048-web.png
+    featured: false
