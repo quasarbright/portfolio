@@ -24,6 +24,7 @@ projects:
     pageLink: https://quasarbright.github.io/minesweeper
     sourceLink: https://github.com/quasarbright/minesweeper
     featured: true
+    thumbnailLink: admin://minesweeper.png
   - id: dinner-debt
     title: Dinner Debt
     description: A little tool to figure out how much you owe someone for dinner.
