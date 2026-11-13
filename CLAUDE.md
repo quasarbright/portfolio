@@ -27,4 +27,5 @@ Screenshots go in `screenshots/` as `.png` files.
 
 ## Site Configuration
 
-`projection.config.json` controls the site title, base URL, `dynamicBackgrounds` (iframes cycling in the hero), and output directory. The `projects.yaml` `config:` block also has per-site settings (items per page, default screenshot, etc.) — `projection.config.json` takes precedence for overlapping keys.
+`projection.config.json` controls the site title, the top bar breadcrumb ("`title` / `heading`",
+with `title` linking to `homeUrl`; `heading` is also the big page heading), base URL, `dynamicBackgrounds` (iframes cycling in the hero), and output directory. The `projects.yaml` `config:` block also has per-site settings (items per page, default screenshot, etc.) — `projection.config.json` takes precedence for overlapping keys.
