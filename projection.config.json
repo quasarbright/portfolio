@@ -1,6 +1,8 @@
 {
   "title": "Mike Delmonaco",
   "description": "My coding projects",
+  "heading": "Coding Projects",
+  "homeUrl": "https://quasarbright.github.io/",
   "baseUrl": "https://quasarbright.github.io/",
   "dynamicBackgrounds": [
     "https://quasarbright.github.io/p5js/boids",
@@ -14,7 +16,8 @@
     "https://quasarbright.github.io/evolving-particle-life/?background",
     "https://quasarbright.github.io/sketches/contagion/?background",
     "https://quasarbright.github.io/sketches/differential-growth/?background",
-    "https://quasarbright.github.io/sketches/fireflies/?background"
+    "https://quasarbright.github.io/sketches/fireflies/?background",
+    "https://quasarbright.github.io/cutwist/?background"
   ],
   "output": "dist"
 }
