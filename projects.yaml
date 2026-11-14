@@ -1662,3 +1662,16 @@ projects:
     sourceLink: https://github.com/quasarbright/sketches/tree/master/2048
     thumbnailLink: admin://g2048-web.png
     featured: false
+  - id: snake
+    title: Snake
+    description: Play Snake in the browser, or watch an AI play it super fast
+    creationDate: "2026-11-13"
+    tags:
+      - web
+      - game
+      - ai
+      - mobile-friendly
+    pageLink: https://quasarbright.github.io/sketches/snake/
+    sourceLink: https://github.com/quasarbright/sketches/tree/master/snake
+    thumbnailLink: admin://snake.png
+    featured: false
