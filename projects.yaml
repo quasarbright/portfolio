@@ -1675,3 +1675,16 @@ projects:
     sourceLink: https://github.com/quasarbright/sketches/tree/master/snake
     thumbnailLink: admin://snake.png
     featured: false
+  - id: chips
+    title: Chips
+    description: Poker chips (or any game money) for everyone at the table, on
+      everyone's phone. Open a table, share the link, and bet into pots.
+    creationDate: "2026-11-15"
+    tags:
+      - web
+      - utility
+      - mobile-friendly
+    pageLink: https://quasarbright.github.io/sketches/chips/
+    sourceLink: https://github.com/quasarbright/sketches/tree/master/chips
+    thumbnailLink: ""
+    featured: false
