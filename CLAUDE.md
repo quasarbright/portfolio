@@ -15,6 +15,10 @@ projection build    # Build to dist/
 projection deploy   # Deploy to GitHub Pages
 ```
 
+Pushing to `master` deploys automatically: `.github/workflows/deploy.yml` builds with projection's
+`master` and pushes `dist/` to `gh-pages`, the branch Pages serves. `projection deploy` still works
+for deploying uncommitted changes.
+
 ## How to Add or Update Projects
 
 Edit `projects.yaml` directly, or use `projection admin` for a UI. Each project entry supports:
