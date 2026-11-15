@@ -1675,10 +1675,23 @@ projects:
     sourceLink: https://github.com/quasarbright/sketches/tree/master/snake
     thumbnailLink: admin://snake.png
     featured: false
+  - id: solitaire-web
+    title: Solitaire
+    description: Play Solitaire in the browser, or watch an AI play it super fast
+    creationDate: "2026-11-14"
+    tags:
+      - web
+      - game
+      - ai
+      - mobile-friendly
+    pageLink: https://quasarbright.github.io/sketches/solitaire/
+    sourceLink: https://github.com/quasarbright/sketches/tree/master/solitaire
+    thumbnailLink: admin://solitaire-web.png
+    featured: false
   - id: chips
     title: Chips
-    description: Poker chips (or any game money) for everyone at the table, on
-      everyone's phone. Open a table, share the link, and bet into pots.
+    description: Online poker chip tracker. Use when you want to play poker and have
+      cards but no chips.
     creationDate: "2026-11-15"
     tags:
       - web
@@ -1687,4 +1700,26 @@ projects:
     pageLink: https://quasarbright.github.io/sketches/chips/
     sourceLink: https://github.com/quasarbright/sketches/tree/master/chips
     thumbnailLink: admin://chips.png
+    featured: false
+  - id: card-table
+    title: Card Table
+    description: Play cards with friends. Like Tabletop Simulator
+    creationDate: "2026-11-15"
+    tags:
+      - web
+      - game
+    pageLink: https://quasarbright.github.io/card-table/
+    sourceLink: https://github.com/quasarbright/card-table
+    thumbnailLink: admin://card-table.png
+    featured: true
+  - id: maze-solver
+    title: Maze Solver
+    description: Watch pathfinding algorithms like A* and breadth-first search solve mazes
+    creationDate: "2026-11-14"
+    tags:
+      - web
+      - algorithms
+    pageLink: https://quasarbright.github.io/sketches/maze-solver/
+    sourceLink: https://github.com/quasarbright/sketches/tree/master/maze-solver
+    thumbnailLink: admin://maze-solver.png
     featured: false

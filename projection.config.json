@@ -5,6 +5,7 @@
   "homeUrl": "https://quasarbright.github.io/",
   "baseUrl": "https://quasarbright.github.io/",
   "dynamicBackgrounds": [
+    "https://quasarbright.github.io/sketches/maze-solver/?background",
     "https://quasarbright.github.io/p5js/boids",
     "https://quasarbright.github.io/p5js/random-walk",
     "https://quasarbright.github.io/p5js/majority-automaton-gpu?background",
