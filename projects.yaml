@@ -1723,3 +1723,16 @@ projects:
     sourceLink: https://github.com/quasarbright/sketches/tree/master/maze-solver
     thumbnailLink: admin://maze-solver.png
     featured: false
+  - id: snake-pit
+    title: Snake Pit
+    description: A population of snakes that evolve.
+    creationDate: "2026-11-15"
+    tags:
+      - web
+      - ai
+      - genetic-algorithm
+      - mobile-friendly
+    pageLink: https://quasarbright.github.io/sketches/snake-pit/
+    sourceLink: https://github.com/quasarbright/sketches/tree/master/snake-pit
+    thumbnailLink: admin://snake-pit.png
+    featured: false
