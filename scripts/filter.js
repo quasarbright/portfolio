@@ -18,7 +18,7 @@ class ProjectFilter {
     // Tag filter buttons
     this.tagFilters.forEach(filter => {
       filter.addEventListener('click', (e) => {
-        this.toggleTagFilter(e.target.dataset.tag);
+        this.toggleTagFilter(e.currentTarget.dataset.tag);
       });
     });
     
@@ -26,7 +26,7 @@ class ProjectFilter {
     this.projectTags.forEach(tag => {
       tag.addEventListener('click', (e) => {
         e.preventDefault();
-        this.toggleTagFilter(e.target.dataset.tag);
+        this.toggleTagFilter(e.currentTarget.dataset.tag);
       });
     });
     
@@ -105,6 +105,8 @@ class ProjectFilter {
       const visible = Array.from(this.projectsGrid.querySelectorAll('.project-card'))
         .filter(card => card.style.display !== 'none').length;
       count.textContent = `${visible} project${visible === 1 ? '' : 's'}`;
+      // the no-results message already says there are none
+      count.hidden = visible === 0;
     }
   }
   
