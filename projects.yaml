@@ -1744,6 +1744,7 @@ projects:
       - web
       - game
       - funny
+      - math
     pageLink: https://quasarbright.github.io/sketches/perspectivent/
     sourceLink: https://github.com/quasarbright/sketches/tree/master/perspectivent
     thumbnailLink: admin://perspectivent.png
