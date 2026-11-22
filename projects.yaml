@@ -173,6 +173,7 @@ projects:
     tags:
       - physics
       - web
+      - math
     pageLink: https://quasarbright.github.io/spring-wave/dist/index.html
     thumbnailLink: https://quasarbright.github.io/p5js/screenshots/spring-wave.png
     sourceLink: https://github.com/quasarbright/spring-wave
@@ -280,6 +281,7 @@ projects:
       - mobile-friendly
       - shader
       - web
+      - math
     pageLink: https://quasarbright.github.io/p5js/voronoi
     thumbnailLink: https://quasarbright.github.io/p5js/screenshots/voronoi.png
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/voronoi
@@ -1213,6 +1215,7 @@ projects:
       - mobile-friendly
       - physics
       - web
+      - math
     pageLink: https://quasarbright.github.io/p5js/light-rays/dist/
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/light-rays
     thumbnailLink: admin://light-propagation.png
