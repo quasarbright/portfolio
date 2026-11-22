@@ -134,6 +134,7 @@ projects:
       - shader
       - fractal
       - web
+      - math
     pageLink: https://quasarbright.github.io/p5js/magnetShader/
     thumbnailLink: https://quasarbright.github.io/p5js/magnetShader/screenshot.png
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/magnetShader
@@ -147,6 +148,7 @@ projects:
       - cellular-automata
       - shader
       - web
+      - math
     pageLink: https://quasarbright.github.io/p5js/majority-automaton-gpu
     thumbnailLink: https://quasarbright.github.io/p5js/screenshots/majority.png
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/majority-automaton-gpu
@@ -226,6 +228,7 @@ projects:
       - conway
       - web
       - upload-image
+      - math
     pageLink: https://quasarbright.github.io/p5js/gpu-gol
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/gpu-gol
     thumbnailLink: ""
@@ -305,6 +308,7 @@ projects:
       - physics
       - cellular-automata
       - web
+      - math
     pageLink: https://quasarbright.github.io/p5js/wave-equation
     thumbnailLink: https://quasarbright.github.io/p5js/wave-equation/screenshot.png
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/wave-equation
@@ -317,6 +321,7 @@ projects:
       - mobile-friendly
       - cellular-automata
       - web
+      - math
     pageLink: https://quasarbright.github.io/p5js/rock-paper-scissors-automaton
     thumbnailLink: https://quasarbright.github.io/p5js/screenshots/rps.png
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/rock-paper-scissors-automaton
@@ -330,6 +335,7 @@ projects:
       - cellular-automata
       - conway
       - web
+      - math
     pageLink: https://quasarbright.github.io/p5js/conway
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/conway
   - id: unbounded-conway
@@ -344,6 +350,7 @@ projects:
       - cellular-automata
       - conway
       - web
+      - math
     pageLink: https://quasarbright.github.io/p5js/unbounded-conway
     thumbnailLink: https://quasarbright.github.io/p5js/screenshots/unbounded-conway.png
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/unbounded-conway
@@ -429,6 +436,7 @@ projects:
     tags:
       - physics
       - web
+      - math
     pageLink: https://quasarbright.github.io/p5js/magnetic%20pendulum
     thumbnailLink: https://quasarbright.github.io/images/magnet%20pendulum.PNG
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/magnetic%20pendulum
@@ -533,6 +541,7 @@ projects:
     tags:
       - game
       - web
+      - math
     pageLink: https://quasarbright.github.io/sudoku/
     sourceLink: https://github.com/quasarbright/sudoku
   - id: blog
@@ -1188,6 +1197,7 @@ projects:
       - upload-image
       - web
       - funny
+      - math
     pageLink: https://quasarbright.github.io/p5js/image-majority-automaton/
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/image-majority-automaton
     thumbnailLink: admin://image-majority-automaton.png
@@ -1327,6 +1337,7 @@ projects:
       - shader
       - cellular-automata
       - video-effect
+      - math
     pageLink: https://github.com/quasarbright/blobify-mp4
     sourceLink: https://github.com/quasarbright/blobify-mp4
     thumbnailLink: admin://blobify-mp4.png
@@ -1367,6 +1378,7 @@ projects:
       - video-effect
       - cellular-automata
       - mobile-friendly
+      - math
     pageLink: https://quasarbright.github.io/blobify-webcam
     sourceLink: https://github.com/quasarbright/blobify-webcam
     thumbnailLink: admin://blobify-webcam.png
@@ -1383,6 +1395,7 @@ projects:
       - video-effect
       - webcam
       - mobile-friendly
+      - math
     pageLink: https://quasarbright.github.io/conway-webcam/
     sourceLink: https://github.com/quasarbright/conway-webcam
     thumbnailLink: admin://conway-webcam.png
@@ -1458,6 +1471,7 @@ projects:
       - cellular-automata
       - shader
       - mobile-friendly
+      - math
     pageLink: https://quasarbright.github.io/sketches/contagion/
     sourceLink: https://github.com/quasarbright/sketches/tree/master/contagion
     thumbnailLink: admin://contagion.png
