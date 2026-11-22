@@ -1107,6 +1107,7 @@ projects:
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/moving-spanning-tree-3d
     tags:
       - web
+      - math
   - id: honeycomb-mst
     title: Honeycomb Minimum Spanning Tree
     description: Growing honeycomb minimum spanning tree
@@ -1117,6 +1118,7 @@ projects:
     tags:
       - mobile-friendly
       - web
+      - math
   - id: vscode-paredit
     title: Paredit VSCode Extension
     description: A VSCode extension for structural S-Expression editing. Includes
