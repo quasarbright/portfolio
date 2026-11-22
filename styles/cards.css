@@ -3,6 +3,16 @@
   position: relative;
   cursor: pointer;
   min-width: 0;
+  /* a card stretches to its row's tallest, and its tags and links sit along the bottom, so
+     every card in a row lines up however long its description is */
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card .card-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-card.filtered-out,
@@ -114,14 +124,11 @@
   color: var(--soft);
 }
 
+/* the whole description, never cut off: a long one makes its row taller (Mike, 2026-11-22) */
 .project-description {
   margin-top: 4px;
   color: var(--soft);
   font-size: 14px;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 
 .card-bottom {
@@ -129,7 +136,8 @@
   align-items: baseline;
   justify-content: space-between;
   gap: 12px;
-  margin-top: 6px;
+  margin-top: auto;
+  padding-top: 6px;
 }
 
 .project-tags {
@@ -239,13 +247,9 @@
 }
 
 .feature-description {
-  display: -webkit-box;
   margin-top: 4px;
   color: var(--soft);
   font-size: 14px;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 
 @media (max-width: 720px) {
