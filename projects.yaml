@@ -1736,3 +1736,15 @@ projects:
     sourceLink: https://github.com/quasarbright/sketches/tree/master/snake-pit
     thumbnailLink: admin://snake-pit.png
     featured: false
+  - id: perspectivent
+    title: Perspectiven't
+    description: Walk around a world where far things shrink by any rule you type, from orthographic and reverse perspective to wobbly lenses and a 360° sphere.
+    creationDate: "2026-11-22"
+    tags:
+      - web
+      - shader
+      - education
+    pageLink: https://quasarbright.github.io/sketches/perspectivent/
+    sourceLink: https://github.com/quasarbright/sketches/tree/master/perspectivent
+    thumbnailLink: admin://perspectivent.png
+    featured: false
