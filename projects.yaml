@@ -325,7 +325,7 @@ projects:
       - web
       - math
     pageLink: https://quasarbright.github.io/p5js/rock-paper-scissors-automaton
-    thumbnailLink: https://quasarbright.github.io/p5js/screenshots/rps.png
+    thumbnailLink: admin://rps-automaton.png
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/rock-paper-scissors-automaton
   - id: conway
     title: Conway's Game of Life
