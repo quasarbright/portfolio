@@ -47,6 +47,7 @@ projects:
       - upload-image
       - funny
       - web
+      - math
     pageLink: https://quasarbright.github.io/p5js/julia-image
     thumbnailLink: https://quasarbright.github.io/p5js/screenshots/julia-image.png
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/julia-image
@@ -71,6 +72,7 @@ projects:
     tags:
       - fractal
       - web
+      - math
     pageLink: https://quasarbright.github.io/p5js/fractal-curve-editor/
     thumbnailLink: https://quasarbright.github.io/p5js/screenshots/fractal-curve-editor.png
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/fractal-curve-editor
@@ -84,6 +86,7 @@ projects:
       - shader
       - pretty
       - web
+      - math
     pageLink: https://quasarbright.github.io/p5js/complex-dynamics/
     thumbnailLink: https://quasarbright.github.io/p5js/screenshots/complex-dynamics.png
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/complex-dynamics
@@ -99,6 +102,7 @@ projects:
       - fractal
       - shader
       - web
+      - math
     pageLink: https://quasarbright.github.io/p5js/mandelbrotShaderRenormalized/
     thumbnailLink: https://quasarbright.github.io/p5js/mandelbrotShaderRenormalized/screenshot.png
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/mandelbrotShaderRenormalized
@@ -114,6 +118,7 @@ projects:
       - shader
       - pretty
       - web
+      - math
     pageLink: https://quasarbright.github.io/p5js/juliaShader/
     thumbnailLink: https://quasarbright.github.io/p5js/juliaShader/screenshot.png
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/juliaShader
@@ -154,6 +159,7 @@ projects:
       - fractal
       - shader
       - web
+      - math
     pageLink: https://quasarbright.github.io/p5js/newton-fractal
     thumbnailLink: https://quasarbright.github.io/p5js/screenshots/newton.png
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/newton-fractal
@@ -176,6 +182,7 @@ projects:
     creationDate: "2021-01-22"
     tags:
       - web
+      - math
     pageLink: https://quasarbright.github.io/p5js/3PointPerspective
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/3PointPerspective
   - id: complex-grid-transformation
@@ -186,6 +193,7 @@ projects:
     creationDate: "2025-05-24"
     tags:
       - web
+      - math
     pageLink: https://quasarbright.github.io/p5js/complex-function-grid-visualizer
     thumbnailLink: https://quasarbright.github.io/p5js/screenshots/complex-grid-transformation.png
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/complex-function-grid-visualizer
@@ -374,6 +382,7 @@ projects:
       - mobile-friendly
       - education
       - web
+      - math
     pageLink: https://quasarbright.github.io/monty-hall-game
     sourceLink: https://github.com/quasarbright/monty-hall-game
   - id: dragon-curve
@@ -385,6 +394,7 @@ projects:
       - mobile-friendly
       - fractal
       - web
+      - math
     pageLink: https://quasarbright.github.io/p5js/dragon-curve/
     thumbnailLink: https://quasarbright.github.io/p5js/dragon-curve/screenshot.png
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/dragon-curve
@@ -441,6 +451,7 @@ projects:
     tags:
       - fractal
       - web
+      - math
     pageLink: https://quasarbright.github.io/p5js/polygon%20fractal
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/polygon%20fractal
   - id: radiation
@@ -478,6 +489,7 @@ projects:
     tags:
       - algorithms
       - web
+      - math
     pageLink: https://quasarbright.github.io/p5js/spanning%20tree
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/spanning%20tree
   - id: moving-spanning-tree
@@ -489,6 +501,7 @@ projects:
       - mobile-friendly
       - algorithms
       - web
+      - math
     pageLink: https://quasarbright.github.io/p5js/moving-spanning-tree
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/moving-spanning-tree
   - id: display-graph
@@ -510,6 +523,7 @@ projects:
       - mobile-friendly
       - algorithms
       - web
+      - math
     pageLink: https://quasarbright.github.io/p5js/travelling%20salesman
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/travelling%20salesman
   - id: sudoku
@@ -798,6 +812,7 @@ projects:
       - racket
       - macros
       - dsl
+      - math
     pageLink: https://github.com/quasarbright/sc-proof-checker
     sourceLink: https://github.com/quasarbright/sc-proof-checker
     featured: true
@@ -1070,6 +1085,7 @@ projects:
     tags:
       - education
       - web
+      - math
     pageLink: https://quasarbright.github.io/ThreePeriods/
     sourceLink: https://github.com/quasarbright/ThreePeriods
   - id: 3d-mst
@@ -1124,6 +1140,7 @@ projects:
     creationDate: "2025-11-30"
     tags:
       - web
+      - math
     pageLink: https://quasarbright.github.io/p5js/vector-field/
     sourceLink: https://github.com/quasarbright/quasarbright.github.io/tree/master/p5js/vector-field
     thumbnailLink: admin://vector-field.png
@@ -1322,6 +1339,7 @@ projects:
       - upload-image
       - web
       - funny
+      - math
     pageLink: https://quasarbright.github.io/image-golden-spiral/
     sourceLink: https://github.com/quasarbright/image-golden-spiral/
     thumbnailLink: admin://image-golden-spiral.png
@@ -1333,6 +1351,7 @@ projects:
     tags:
       - upload-image
       - web
+      - math
     pageLink: https://quasarbright.github.io/droste
     sourceLink: https://github.com/quasarbright/droste
     thumbnailLink: admin://droste-effect.png
@@ -1376,6 +1395,7 @@ projects:
       - web
       - funny
       - upload-image
+      - math
     pageLink: https://quasarbright.github.io/escher-warp/
     sourceLink: https://github.com/quasarbright/escher-warp
     thumbnailLink: admin://escher-warp.png
@@ -1403,6 +1423,7 @@ projects:
     tags:
       - web
       - mobile-friendly
+      - math
     pageLink: https://quasarbright.github.io/sketches/fourier-epicycles/
     sourceLink: https://github.com/quasarbright/sketches/tree/master/fourier-epicycles
     thumbnailLink: admin://fourier-epicycles.png
@@ -1420,6 +1441,7 @@ projects:
       - shader
       - mobile-friendly
       - fractal
+      - math
     pageLink: https://quasarbright.github.io/sketches/sandpile/
     sourceLink: https://github.com/quasarbright/sketches/tree/master/sandpile
     thumbnailLink: admin://sandpile.png
@@ -1516,6 +1538,7 @@ projects:
       - web
       - game
       - mobile-friendly
+      - math
     pageLink: https://quasarbright.github.io/cutwist/
     sourceLink: https://github.com/quasarbright/cutwist
     thumbnailLink: admin://cutwist.png
@@ -1533,6 +1556,7 @@ projects:
       - upload-image
       - fractal
       - mobile-friendly
+      - math
     pageLink: https://quasarbright.github.io/sketches/hilbert-portrait/
     sourceLink: https://github.com/quasarbright/sketches/tree/master/hilbert-portrait
     thumbnailLink: admin://hilbert-portrait.png
@@ -1556,6 +1580,7 @@ projects:
       - web
       - game
       - mobile-friendly
+      - math
     pageLink: https://quasarbright.github.io/sketches/pancakes/
     sourceLink: https://github.com/quasarbright/sketches/tree/master/pancakes
     thumbnailLink: admin://pancake-sort.png
